@@ -1,14 +1,15 @@
 {
-  "name": "adp-test",
-  "version": "1.0.0",
-  "description": "adp coding task",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Cletus",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.21.4"
-  }
+	"name": "adp-test",
+	"version": "1.0.0",
+	"description": "adp coding task",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Cletus",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.4"
+	},
+	"type": "module"
 }
