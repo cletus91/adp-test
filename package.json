@@ -4,7 +4,7 @@
 	"description": "adp coding task",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "mocha",
 		"start": "node src/index.js "
 	},
 	"author": "Cletus",
@@ -12,5 +12,8 @@
 	"dependencies": {
 		"axios": "^0.21.4"
 	},
-	"type": "module"
+	"type": "module",
+	"devDependencies": {
+		"mocha": "^9.1.2"
+	}
 }
